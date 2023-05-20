@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:src="@drawable/topg"
+        app:civ_border_width="2dp"
+        android:layout_margin="9dp"
+        app:civ_border_color="#FF000000"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/tvname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Andrew Tate"
+            android:textSize="23dp"
+            android:layout_margin="10dp"
+            android:textStyle="bold">
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvnumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="999999999"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:layout_margin="10dp">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvtime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4:45"
+        android:layout_margin="11sp"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:paddingStart="20dp"
+        android:textAlignment="center">
+
+    </TextView>
+
+</LinearLayout>
